@@ -1,0 +1,137 @@
+{
+  "data": {
+    "featured": {
+      "edges": [
+        {
+          "node": {
+            "frontmatter": {
+              "title": "Fortuna",
+              "cover": {
+                "childImageSharp": {
+                  "gatsbyImageData": {
+                    "layout": "constrained",
+                    "placeholder": {
+                      "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACpUlEQVQozzXRzW4bVRjGcdtz5syc+Toznu/xeGyPM3YcO05JCE2lQKK0tE0bKaKLVl1VSBGFBVU2sACJLRsWcAdsuAAugx139EcGsXhXj/TT8+jtnW2GdJVL5UuaUFEnHi8eTfnq1Snvbo54ddHy/uWU9y/GXH+ccn2ScXOacXkQMNIWQ2WSOpJYCWJb0AsihyRSNKlPnQdkWcDhsuX55TnXjy+5eXrFd29XfP9mymefPGAxbSgCh9K3GWuPSagpPYvEEZSuSW80yVnNS7p2RDGvyNqCuq2YdzUHqxmn244fX5f8/K7g5afHHHYtmXZJPcmmaXny0QWV75G7gpFW9MrYZzkpaSYlo/WcertkvOlYbfeoDzviKudkmXN+VDGONbGn0LuZgWSSpaynCwrPJXNNssihFyqTSjuME48y8Wkf7NNNc5pC8/Ck4uvbhg+3Ld9+scfVYcQ0lYSWYJIoqshmEtmUSjDcnSPoacsgVYLUNtByQO4qatsgUYLTqeKbz2PurobcPUl5dhzRFRa+abDIbLrMpY1s6sD8Fwx2T/GkIPIFVeFQhT5lajPyBBNXUAUmdWizLAKayKWJFLsC2hxwULosC49VE7OoPFLnf9ASKLPPrIo5W8w4XyU8TC1u1xOeHTTcP43584eSP+5jvrxwyXXAelyySHwmocPxak5bpAw9iXblf6At+uRpzGbZUeiALFA82p+zrmrun7v8/avHX7/Y/PRaMc5SjtqGPAxwLcl2tWBW5cSuiXZMeu4ONAfE2qEZ5ShbYknJdrnHKE1ZVSa/3Q35/UPCWWeRx0OO9/eoQhdXGszrnDT00LJPogx6SgpsKVBygBj0sUwD2xSErk2gJINen+1Mc7Y/xOgP8JVJtMssgSMNLKOPbQyotcmmMPkHl+glukCGOusAAAAASUVORK5CYII="
+                    },
+                    "images": {
+                      "fallback": {
+                        "src": "/static/bbd7544a131f875568e76e022a7184a7/10252/fortuna.png",
+                        "srcSet": "/static/bbd7544a131f875568e76e022a7184a7/68202/fortuna.png 175w,\n/static/bbd7544a131f875568e76e022a7184a7/aef44/fortuna.png 350w,\n/static/bbd7544a131f875568e76e022a7184a7/10252/fortuna.png 700w,\n/static/bbd7544a131f875568e76e022a7184a7/e493a/fortuna.png 1400w",
+                        "sizes": "(min-width: 700px) 700px, 100vw"
+                      },
+                      "sources": [
+                        {
+                          "srcSet": "/static/bbd7544a131f875568e76e022a7184a7/1934d/fortuna.avif 175w,\n/static/bbd7544a131f875568e76e022a7184a7/4564e/fortuna.avif 350w,\n/static/bbd7544a131f875568e76e022a7184a7/62eae/fortuna.avif 700w,\n/static/bbd7544a131f875568e76e022a7184a7/3dbf4/fortuna.avif 1400w",
+                          "type": "image/avif",
+                          "sizes": "(min-width: 700px) 700px, 100vw"
+                        },
+                        {
+                          "srcSet": "/static/bbd7544a131f875568e76e022a7184a7/745fa/fortuna.webp 175w,\n/static/bbd7544a131f875568e76e022a7184a7/37527/fortuna.webp 350w,\n/static/bbd7544a131f875568e76e022a7184a7/ea0a8/fortuna.webp 700w,\n/static/bbd7544a131f875568e76e022a7184a7/d8330/fortuna.webp 1400w",
+                          "type": "image/webp",
+                          "sizes": "(min-width: 700px) 700px, 100vw"
+                        }
+                      ]
+                    },
+                    "width": 700,
+                    "height": 399
+                  }
+                }
+              },
+              "tech": ["React", "Node.js", "Express.js", "MongoDB", "Javascript", "HTML/CSS"],
+              "github": null,
+              "external": "https://fortuna-2022.herokuapp.com/",
+              "cta": null
+            },
+            "html": "<p>Fortuna is a virtual casino that runs on the blockchain. In Fortuna, you can chat and play casino games with other users, use in-game currency to mint your own custom NFTs (digital “collectibles” stored on the blockchain), and view and trade your NFTs elsewhere. Fortuna sets itself apart from other casinos by combining tradition with the future, promoting virtual interaction and blockchain accessibility. We won 1st place with Fortuna at the 2022 MIT web.lab competition.</p>"
+          }
+        },
+        {
+          "node": {
+            "frontmatter": {
+              "title": "Voice Reader with Icon Detection",
+              "cover": {
+                "childImageSharp": {
+                  "gatsbyImageData": {
+                    "layout": "constrained",
+                    "placeholder": {
+                      "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACaElEQVQoz0WRy27bCAxFvSqmi5lBkWYCBEhs2ZKs98t6S5Ys2XpZst0G7a7bfkB/oL9+CmsxWRwQIInLS3KxMxN8q6S09uz1mKJ4Ix9/UsUNkWxjrrZEmkMsWTiCgvOyJdM9wq1NpDq4isFuo+OudHzVZfEgvvCsa2iGwlqRWe8ilsGeje3y9PTIx4e/+Uv4zMfNf3xYP/Dh5RP/aq/8s3nik/rKZ2fNoyHwuH5hKS5ZpFGBZ3sYmookiaiyjCqJaIqCsF6j2xrtW0M2lORjTfmlZz/WeIcYr8uxrxXWtcSOHUzVYJHsW7zjF7LpO3l1oO069uWBPC9wAx8/ComLClU30TULN8jwshLdsLl0PddxYuoHPMdBlmUWrqtjHb/j/vjNYfrG7TLNosMwcLtemW43yrYjr2rSLCdJU5Kyoqhq2r5nut4Yxgnbcdhutyy2ioQv72lPV8LYIUki0jSjLEs83+PUN3Rdz9B3jOPEMPS0zT3XEWYlTlbjpCW6aaHMgppMKBcMzUQQmiRxiO8HpEmC63sMl55xHOcBVXXgcDjM8XSs503OlyvdeXx3KKsSvrSnP90FLcLQJ4pi0jTFdm26oeX29Y3+PDGMl5nuPFG3A8du4NSfqZoOwzTZ3m+4EQVcKaE7DXg7A2/nEQQhlmXNE+9spHeEtYgbxLhpiRmkWFGO4SdIWwVRFFlslkvUrKf48YuiOTP0PVEUzR/TNA1N1zFNE9M05qhrGlmW0TQNVVVTH48cqmruFQSBhbB85VWxWPpHZMPFtkwMw5gd2raNZTs4jovrvnOvqar6P/f+1WrF8/MzfwCEb2QtNSw0BQAAAABJRU5ErkJggg=="
+                    },
+                    "images": {
+                      "fallback": {
+                        "src": "/static/5c33d593f346e26a9e22e09ed34c1a0e/c2856/vocr.png",
+                        "srcSet": "/static/5c33d593f346e26a9e22e09ed34c1a0e/68202/vocr.png 175w,\n/static/5c33d593f346e26a9e22e09ed34c1a0e/dea39/vocr.png 350w,\n/static/5c33d593f346e26a9e22e09ed34c1a0e/c2856/vocr.png 700w,\n/static/5c33d593f346e26a9e22e09ed34c1a0e/10ae4/vocr.png 1400w",
+                        "sizes": "(min-width: 700px) 700px, 100vw"
+                      },
+                      "sources": [
+                        {
+                          "srcSet": "/static/5c33d593f346e26a9e22e09ed34c1a0e/1934d/vocr.avif 175w,\n/static/5c33d593f346e26a9e22e09ed34c1a0e/02566/vocr.avif 350w,\n/static/5c33d593f346e26a9e22e09ed34c1a0e/e9420/vocr.avif 700w,\n/static/5c33d593f346e26a9e22e09ed34c1a0e/10da5/vocr.avif 1400w",
+                          "type": "image/avif",
+                          "sizes": "(min-width: 700px) 700px, 100vw"
+                        },
+                        {
+                          "srcSet": "/static/5c33d593f346e26a9e22e09ed34c1a0e/745fa/vocr.webp 175w,\n/static/5c33d593f346e26a9e22e09ed34c1a0e/ec351/vocr.webp 350w,\n/static/5c33d593f346e26a9e22e09ed34c1a0e/9c274/vocr.webp 700w,\n/static/5c33d593f346e26a9e22e09ed34c1a0e/f707a/vocr.webp 1400w",
+                          "type": "image/webp",
+                          "sizes": "(min-width: 700px) 700px, 100vw"
+                        }
+                      ]
+                    },
+                    "width": 700,
+                    "height": 401
+                  }
+                }
+              },
+              "tech": ["Swift", "OpenCV"],
+              "github": "https://github.com/chigkim/VOCR/tree/PPAT22",
+              "external": null,
+              "cta": null
+            },
+            "html": "<p><a href=\"https://github.com/chigkim/VOCR/tree/main\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">VOCR</a> is an open-source application that helps visually impaired people navigate MacOS by using VoiceOver for text elements on the screen. We teamed up with Berklee professor Chi Kim to implement a music icon detection feature in VOCR that makes it easier for users to navigate music software such as Pro Tools. We completed this project as part of MIT’s Principles and Practice of Assistive Technology <a href=\"http://ppat.mit.edu/fall2019/index.html\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">(PPAT)</a> class.</p>"
+          }
+        },
+        {
+          "node": {
+            "frontmatter": {
+              "title": "Differentially Private Mechanisms",
+              "cover": {
+                "childImageSharp": {
+                  "gatsbyImageData": {
+                    "layout": "constrained",
+                    "placeholder": {
+                      "fallback": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABVklEQVQoz21Sa3PDIAzr//+Xu2ubNSQNGPMKD+3MlixNqy8cJyPLFpfWGgS1VlhDuH1d8bg/EFxA8B7rukJqSinIOYPIgq1DCgne/fLyViB1l02QHeM5zYgxItcMy4RpUpjnuQsxMyxZOGsRnAMZs/Mi+iZIlqCtQUXtgnGNe9HGE1PnCwpSSTu/1bwIigvnHJRS3U1e814oEBfi5n69YRwefT072n/jXVBGTSkhhNAfexEfRyxa9/0J/30dMH0rLM8Fs5qg1Ait9eeRtdEwrNFQkMsKFxghhe5aapZlAZH5M9QQc0RMsfPS8E1Q3FlrwWwRYti7bhDeBd/D8973+xFvI8sp8UuhnLlkaDa4DQMWY8CSrDYgor7fYyAvoRzVj5DdEDNKK6it9oSfy9xHP454fv/i8NhNUoxkJV6UmJBC+Dji2czl7Oz4jSRxy9zXIPdPI57xA6IsXjaAmJitAAAAAElFTkSuQmCC"
+                    },
+                    "images": {
+                      "fallback": {
+                        "src": "/static/47ff0b8e3fb27372279d68d0f93011b7/5cbfa/diffpriv.png",
+                        "srcSet": "/static/47ff0b8e3fb27372279d68d0f93011b7/4a714/diffpriv.png 175w,\n/static/47ff0b8e3fb27372279d68d0f93011b7/aeb3b/diffpriv.png 350w,\n/static/47ff0b8e3fb27372279d68d0f93011b7/5cbfa/diffpriv.png 700w,\n/static/47ff0b8e3fb27372279d68d0f93011b7/c46be/diffpriv.png 1400w",
+                        "sizes": "(min-width: 700px) 700px, 100vw"
+                      },
+                      "sources": [
+                        {
+                          "srcSet": "/static/47ff0b8e3fb27372279d68d0f93011b7/218dd/diffpriv.avif 175w,\n/static/47ff0b8e3fb27372279d68d0f93011b7/7fbd3/diffpriv.avif 350w,\n/static/47ff0b8e3fb27372279d68d0f93011b7/84a37/diffpriv.avif 700w,\n/static/47ff0b8e3fb27372279d68d0f93011b7/15b7c/diffpriv.avif 1400w",
+                          "type": "image/avif",
+                          "sizes": "(min-width: 700px) 700px, 100vw"
+                        },
+                        {
+                          "srcSet": "/static/47ff0b8e3fb27372279d68d0f93011b7/d5efe/diffpriv.webp 175w,\n/static/47ff0b8e3fb27372279d68d0f93011b7/b74fb/diffpriv.webp 350w,\n/static/47ff0b8e3fb27372279d68d0f93011b7/8b234/diffpriv.webp 700w,\n/static/47ff0b8e3fb27372279d68d0f93011b7/a82ec/diffpriv.webp 1400w",
+                          "type": "image/webp",
+                          "sizes": "(min-width: 700px) 700px, 100vw"
+                        }
+                      ]
+                    },
+                    "width": 700,
+                    "height": 384
+                  }
+                }
+              },
+              "tech": ["MATLAB", "PyTorch", "Keras"],
+              "github": "https://github.com/kenctrl/Differential-Privacy-2019",
+              "external": "https://arxiv.org/abs/2001.00012",
+              "cta": ""
+            },
+            "html": "<p>I completed this project as part of my data privacy research at Western Connecticut State University, mentored by Prof. Xiaodi Wang. I developed three algorithms that embed noise into datasets to make the data differentially private. Multiple machine learning models were able to achieve high accuracy using noisy data from the three algorithms, proving that the data successfully retain both differential privacy and statistical learnability. The paper can be found <a href=\"https://arxiv.org/abs/2001.00012\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">here</a>.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

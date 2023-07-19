@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://kenchoi.dev/sitemap.xml
+Host: https://kenchoi.dev
