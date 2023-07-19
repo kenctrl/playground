@@ -125,8 +125,17 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['TypeScript', 'Go', 'React', 'Node.js', 'Appium', 'MongoDB'];
 
+  /**
+   * Hi there! My name is Kenneth, and I enjoy making things. Whether it's{' '}
+              <a href="https://gist.github.com/kenctrl/3b85e7781e27033180e15c73c1bf4806">
+                whipping up a new web game
+              </a>{' '}or{' '}<a href="https://imgur.com/a/KlxTHWP">
+              cooking one of my favorite Korean dishes
+              </a>{' '}, I'm always looking for ways to channel
+              my inner creativity.
+   */
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
       <h2 className="numbered-heading">About Me</h2>
@@ -135,30 +144,29 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
-            </p>
-
-            <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              Hi there! My name is Kenneth, and I enjoy making things. Whether I'm whipping whipping
+              up a{' '}
+              <a href="https://gist.github.com/kenctrl/3b85e7781e27033180e15c73c1bf4806">
+                new web game
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              or cooking one of my favorite Korean dishes, I'm always looking for ways to channel my
+              inner creativity.
+            </p>
+
+            <p>
+              My interest in computer science started back in high school, where I experimented with
+              basic machine learning models on noisy data. Coming to MIT, I've expanded my scope to
+              include many fields within software, systems, and machine learning.
+            </p>
+
+            <p>
+              Currently, I'm a software engineer intern at{' '}
+              <a href="https://www.amazon.jobs/en/teams/search.html?base_query=Visual+Search">
+                Amazon
+              </a>{' '}
+              working on the Visual Search & Augmented Reality team. I'm also co-president of{' '}
+              <a href="https://weblab.mit.edu/">web.lab</a>, a programming class & competition at
+              MIT that takes place every January.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
