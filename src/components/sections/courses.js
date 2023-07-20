@@ -1,13 +1,38 @@
-// import React from 'react';
-// // import { CSSTransition, TransitionGroup } from 'react-transition-group';
-// // import styled from 'styled-components';
-// // import { navDelay, loaderDelay } from '@utils';
-// // import { usePrefersReducedMotion } from '@hooks';
+import React from 'react';
+// import { GraphCanvas } from 'reagraph';
 
-// const Courses = () => (
-//   <div>
-//     <iframe title="EmbeddedApp" src="courses/index.html" width="100%" height="600px" />
-//   </div>
-// );
+const Courses = () => 
+// const nodes = [
+//   {
+//     id: '1',
+//     label: '1',
+//   },
+//   {
+//     id: '2',
+//     label: '2',
+//   },
+// ];
 
-// export default Courses;
+// const edges = [
+//   {
+//     source: '1',
+//     target: '2',
+//     id: '1-2',
+//     label: '1-2',
+//   },
+//   {
+//     source: '2',
+//     target: '1',
+//     id: '2-1',
+//     label: '2-1',
+//   },
+// ];
+
+  // return <GraphCanvas
+  //   nodes={nodes}
+  //   edges={edges}
+  // />;
+  <></>
+;
+
+export default Courses;

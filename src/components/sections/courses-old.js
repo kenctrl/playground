@@ -99,7 +99,6 @@
 // // export default Courses;
 
 // import { useState, useEffect, useRef, useMemo } from "react";
-// import type { MouseEvent } from "react";
 
 // import classNames from "classnames";
 
@@ -158,19 +157,19 @@
 //   const [tableDlgCls, openTableDlg, closeTableDlg] = useDialogStatus();
 //   const [editDlgCls, openEditDlg, closeEditDlg] = useDialogStatus();
 
-//   const flowInstance = useRef<OnLoadParams>();
-//   const updateNodePos = useRef<UpdateNodePos>(() => {});
-//   const selectedElements = useRef<SelectedElements>([]);
-//   const setSelectedElements = useRef<SetSelectedElements>(() => {});
-//   const resetSelectedElements = useRef<() => void>(() => {});
-//   const unsetNodesSelection = useRef<() => void>(() => {});
+//   const flowInstance = useRef();
+//   const updateNodePos = useRef(() => {});
+//   const selectedElements = useRef([]);
+//   const setSelectedElements = useRef(() => {});
+//   const resetSelectedElements = useRef(() => {});
+//   const unsetNodesSelection = useRef(() => {});
 
-//   const [elements, setElements] = useState<Element[]>(initialElements);
-//   const nodeData = useRef<NodeDataMap>(newNodeData(initialElements));
-//   const elemIndexes = useRef<ElemIndexMap>(newElemIndexes(initialElements));
-//   const undoStack = useRef<Element[][]>([]);
-//   const redoStack = useRef<Element[][]>([]);
-//   const dragStartState = useRef<Element[]>([]);
+//   const [elements, setElements] = useState(initialElements);
+//   const nodeData = useRef(newNodeData(initialElements));
+//   const elemIndexes = useRef(newElemIndexes(initialElements));
+//   const undoStack = useRef([]);
+//   const redoStack = useRef([]);
+//   const dragStartState = useRef([]);
 //   // Because drag start is triggered on mousedown even if no movement
 //   // occurs, the flow state at drag start should only be added to undo
 //   // history on drag end
@@ -194,12 +193,12 @@
 
 //   const prefersReducedMotion = usePrefersReducedMotion();
 
-//   function onLoad(reactFlowInstance: OnLoadParams): void {
+//   function onLoad(reactFlowInstance) {
 //     reactFlowInstance.fitView();
 //     flowInstance.current = reactFlowInstance;
 //   }
 
-//   function recalculatedElements(newElements: Element[]): Element[] {
+//   function recalculatedElements(newElements) {
 //     nodeData.current = newNodeData(newElements);
 //     let recalculatedElems = sortElementsByDepth(newElements, nodeData.current);
 //     elemIndexes.current = newElemIndexes(recalculatedElems);
@@ -211,7 +210,7 @@
 //     return resetElementStates(recalculatedElems);
 //   }
 
-//   function recordFlowState(elems: Element[] | null = null): void {
+//   function recordFlowState(elems = null) {
 //     const flowElems = elems ?? flowInstance.current?.toObject().elements;
 //     if (undoStack.current.length === MAX_UNDO_NUM) {
 //       undoStack.current.shift();
@@ -226,7 +225,7 @@
 //   );
 
 //   useEffect(() => {
-//     function undoListener(event: KeyboardEvent): void {
+//     function undoListener(event) {
 //       if (event.ctrlKey && event.key === "z" && !dialogOpen) {
 //         if (undoStack.current.length) {
 //           unsetNodesSelection.current();
@@ -250,7 +249,7 @@
 //         }
 //       }
 //     }
-//     function redoListener(event: KeyboardEvent): void {
+//     function redoListener(event) {
 //       if (event.ctrlKey && event.key === "y" && !dialogOpen) {
 //         if (redoStack.current.length) {
 //           unsetNodesSelection.current();
@@ -317,7 +316,7 @@
 
 //   /* ELEMENT */
 //   // Single change can only propagate 2 layers deep
-//   function onElementClick(event, eventTarget: FlowElement): void {
+//   function onElementClick(event, eventTarget) {
 //     // NOTE: eventTarget isn't the actual element so can't use id equality
 //     if (event.altKey && isCourseNode(eventTarget)) {
 //       resetSelectedElements.current();
@@ -369,7 +368,7 @@
 //     }
 //   }
 
-//   function onElementsRemove(targetElems: FlowElement[]): void {
+//   function onElementsRemove(targetElems) {
 //     recordFlowState();
 //     setElements(
 //       recalculatedElements(removeElements(targetElems, elements)),
@@ -388,15 +387,15 @@
 //   }
 
 //   function applyHoverEffectBackward(
-//     nodeId: NodeId,
-//     newElements: Element[],
-//   ): void {
+//     nodeId,
+//     newElements,
+//   ) {
 //     for (const id of nodeData.current.get(nodeId).incomingEdges) {
 //       const i = elemIndexes.current.get(id);
 //       newElements[i] = {
 //         ...newElements[i],
 //         animated: !prefersReducedMotion,
-//       } as Edge;
+//       };
 //     }
 
 //     for (const id of nodeData.current.get(nodeId).incomingNodes) {
@@ -404,7 +403,7 @@
 //       newElements[i] = {
 //         ...newElements[i],
 //         data: { ...newElements[i].data, nodeConnected: true },
-//       } as Node;
+//       };
 
 //       if (["or", "and"].includes(newElements[i].type)) {
 //         applyHoverEffectBackward(id, newElements);
@@ -413,15 +412,15 @@
 //   }
 
 //   function applyHoverEffectForward(
-//     nodeId: NodeId,
-//     newElements: Element[],
-//   ): void {
+//     nodeId,
+//     newElements,
+//   ) {
 //     for (const id of nodeData.current.get(nodeId).outgoingEdges) {
 //       const i = elemIndexes.current.get(id);
 //       newElements[i] = {
 //         ...newElements[i],
 //         animated: !prefersReducedMotion,
-//       } as Edge;
+//       };
 //     }
 
 //     for (const id of nodeData.current.get(nodeId).outgoingNodes) {
@@ -429,7 +428,7 @@
 //       newElements[i] = {
 //         ...newElements[i],
 //         data: { ...newElements[i].data, nodeConnected: true },
-//       } as Node;
+//       };
 
 //       if (["or", "and"].includes(newElements[i].type)) {
 //         applyHoverEffectForward(id, newElements);
@@ -437,7 +436,7 @@
 //     }
 //   }
 
-//   function onNodeMouseEnter(_event: MouseEvent, targetNode: FlowNode): void {
+//   function onNodeMouseEnter(_event, targetNode) {
 //     const nodeId = targetNode.id;
 //     const newElements = elements.slice();
 
@@ -447,7 +446,7 @@
 //     setElements(newElements);
 //   }
 
-//   function onNodeMouseLeave(_event: MouseEvent, _targetNode: FlowNode): void {
+//   function onNodeMouseLeave(_event, _targetNode) {
 //     const newElements = elements.slice();
 
 //     const numNodes = nodeData.current.size;
@@ -456,10 +455,10 @@
 //       newElements[i] = {
 //         ...newElements[i],
 //         data: { ...newElements[i].data, nodeConnected: false },
-//       } as Node;
+//       };
 //     }
 //     for (let i = numNodes; i < numElems; i++) {
-//       newElements[i] = { ...newElements[i], animated: false } as Edge;
+//       newElements[i] = { ...newElements[i], animated: false };
 //     }
 
 //     setElements(newElements);
@@ -467,7 +466,7 @@
 //     // Using an old for loop for speed over Array.map()
 //   }
 
-//   function onNodeContextMenu(event: MouseEvent, node: FlowNode): void {
+//   function onNodeContextMenu(event, node) {
 //     event.preventDefault();
 //     unsetNodesSelection.current();
 //     const selectedIds = selectedElements.current
@@ -485,7 +484,7 @@
 //         // Multiple nodes selected
 //         const courseNodeSelected = selectedIds.some(
 //           nodeId =>
-//             (elements[elemIndexes.current.get(nodeId)] as Node).type ===
+//             (elements[elemIndexes.current.get(nodeId)]).type ===
 //             "course",
 //         );
 //         contextData.current = {
@@ -504,7 +503,7 @@
 //         };
 //       }
 //     } else {
-//       setSelectedElements.current([node as Node]);
+//       setSelectedElements.current([node]);
 //       contextData.current = {
 //         target: [node.id],
 //         targetType: node.type === "course" ? "coursenode" : "conditionalnode",
@@ -550,8 +549,8 @@
 //   //   setContextActive(false);
 //   // }
 
-//   function onEdgeUpdate(oldEdge: FlowEdge, newConnection: Connection): void {
-//     const newSource = newConnection.source as NodeId;
+//   function onEdgeUpdate(oldEdge, newConnection) {
+//     const newSource = newConnection.source;
 //     const newTarget = newConnection.target;
 //     const newEdgeId = edgeArrowId(newSource, newTarget);
 //     const reverseEdgeId = edgeArrowId(newTarget, newSource);
