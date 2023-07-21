@@ -167,13 +167,13 @@ const StyledProject = styled.li`
 
 const Projects = () => {
   const data = useStaticQuery(graphql`
-    query {
+    query staticUserskennethchoiDesktopplaygroundsrccomponentssectionsprojectsJs3825832676 {
       projects: allMarkdownRemark(
         filter: {
           fileAbsolutePath: { regex: "/content/projects/" }
           frontmatter: { showInProjects: { ne: false } }
         }
-        sort: { fields: [frontmatter___date], order: DESC }
+        sort: { frontmatter: { date: DESC } }
       ) {
         edges {
           node {
