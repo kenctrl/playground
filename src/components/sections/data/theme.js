@@ -1,18 +1,18 @@
 export const courseTheme = {
   canvas: {
-    background: '#112240',
-    fog: '#112240',
+    background: '#0a192f',
+    fog: '#e6f1ff',
   },
   node: {
-    fill: '#8892b0',
+    fill: '#e6f1ff',
     activeFill: '#64ffda',
     opacity: 1,
     selectedOpacity: 1,
     inactiveOpacity: 0.2,
     label: {
-      color: 'var(--white)',
+      color: '#e6f1ff',
       // stroke: '#e6f1ff',
-      // activeColor: '#64ffda',
+      activeColor: '#64ffda',
     },
   },
   lasso: {
@@ -21,29 +21,29 @@ export const courseTheme = {
   },
   ring: {
     fill: '#e6f1ff',
-    activeFill: '#1DE9AC',
+    activeFill: '#64ffda',
   },
   edge: {
-    fill: '#e6f1ff',
-    activeFill: '#1DE9AC',
+    fill: '#a8b2d1',
+    activeFill: '#a8b2d1',
     opacity: 1,
     selectedOpacity: 1,
     inactiveOpacity: 0.1,
     label: {
-      stroke: '#fff',
-      color: '#2A6475',
-      activeColor: '#1DE9AC',
+      // stroke: '#e6f1ff',
+      color: '#64ffda',
+      activeColor: '#64ffda',
     },
   },
   arrow: {
-    fill: '#e6f1ff',
-    activeFill: '#1DE9AC',
+    fill: '#a8b2d1',
+    activeFill: '#a8b2d1',
   },
   cluster: {
-    stroke: '#e6f1ff',
+    stroke: '#0a192f',
     label: {
-      stroke: '#e6f1ff',
-      color: '#2A6475',
+      stroke: null,
+      color: '#e6f1ff',
     },
   },
 };
