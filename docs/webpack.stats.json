@@ -1,1 +1,239 @@
-{"namedChunkGroups":{"polyfill":{"name":"polyfill","assets":[{"name":"webpack-runtime-6911ea1895dd8524a0fb.js","size":4320},{"name":"polyfill-fa70be1a919a8d2033f5.js","size":98679}],"filteredAssets":0,"assetsSize":102999,"filteredAuxiliaryAssets":2,"auxiliaryAssetsSize":302043},"app":{"name":"app","assets":[{"name":"webpack-runtime-6911ea1895dd8524a0fb.js","size":4320},{"name":"framework-025a10830d88a05b2804.js","size":129842},{"name":"app-239b78cb5a0135c14c1a.js","size":109950}],"filteredAssets":0,"assetsSize":244112,"filteredAuxiliaryAssets":3,"auxiliaryAssetsSize":794142},"component---cache-caches-gatsby-plugin-offline-app-shell-js":{"name":"component---cache-caches-gatsby-plugin-offline-app-shell-js","assets":[{"name":"component---cache-caches-gatsby-plugin-offline-app-shell-js-9b1997f2483a747a5203.js","size":499}],"filteredAssets":0,"assetsSize":499,"filteredAuxiliaryAssets":1,"auxiliaryAssetsSize":1657},"component---src-pages-404-js":{"name":"component---src-pages-404-js","assets":[{"name":"546641dfde76ed00139ea2c3eae09499c5f2164a-10c07e74be1f8980b549.js","size":125476},{"name":"component---src-pages-404-js-9401aec6a79f1747dcc6.js","size":1571}],"filteredAssets":0,"assetsSize":127047,"filteredAuxiliaryAssets":22,"auxiliaryAssetsSize":1164195},"component---src-pages-archive-js":{"name":"component---src-pages-archive-js","assets":[{"name":"546641dfde76ed00139ea2c3eae09499c5f2164a-10c07e74be1f8980b549.js","size":125476},{"name":"component---src-pages-archive-js-22c63c11bbc16e2c8539.js","size":3803}],"filteredAssets":0,"assetsSize":129279,"filteredAuxiliaryAssets":22,"auxiliaryAssetsSize":1170413},"component---src-pages-index-js":{"name":"component---src-pages-index-js","assets":[{"name":"546641dfde76ed00139ea2c3eae09499c5f2164a-10c07e74be1f8980b549.js","size":125476},{"name":"component---src-pages-index-js-d0fa09ee35d414cef223.js","size":606}],"filteredAssets":0,"assetsSize":126082,"filteredAuxiliaryAssets":22,"auxiliaryAssetsSize":1161840},"component---src-pages-pensieve-index-js":{"name":"component---src-pages-pensieve-index-js","assets":[{"name":"546641dfde76ed00139ea2c3eae09499c5f2164a-10c07e74be1f8980b549.js","size":125476},{"name":"component---src-pages-pensieve-index-js-4efb97a4d3ae87ca6e95.js","size":9198}],"filteredAssets":0,"assetsSize":134674,"filteredAuxiliaryAssets":22,"auxiliaryAssetsSize":1197230},"component---src-pages-pensieve-tags-js":{"name":"component---src-pages-pensieve-tags-js","assets":[{"name":"546641dfde76ed00139ea2c3eae09499c5f2164a-10c07e74be1f8980b549.js","size":125476},{"name":"component---src-pages-pensieve-tags-js-51590b274df8e43b87a2.js","size":6764}],"filteredAssets":0,"assetsSize":132240,"filteredAuxiliaryAssets":22,"auxiliaryAssetsSize":1192548},"component---src-templates-post-js":{"name":"component---src-templates-post-js","assets":[{"name":"546641dfde76ed00139ea2c3eae09499c5f2164a-10c07e74be1f8980b549.js","size":125476},{"name":"component---src-templates-post-js-65b6dc2d6daf1bb9b524.js","size":7362}],"filteredAssets":0,"assetsSize":132838,"filteredAuxiliaryAssets":22,"auxiliaryAssetsSize":1193636},"component---src-templates-tag-js":{"name":"component---src-templates-tag-js","assets":[{"name":"546641dfde76ed00139ea2c3eae09499c5f2164a-10c07e74be1f8980b549.js","size":125476},{"name":"component---src-templates-tag-js-37dde5c0d5b5805c4fbb.js","size":7321}],"filteredAssets":0,"assetsSize":132797,"filteredAuxiliaryAssets":22,"auxiliaryAssetsSize":1194683}},"assetsByChunkName":{"polyfill":["webpack-runtime-6911ea1895dd8524a0fb.js","polyfill-fa70be1a919a8d2033f5.js"],"app":["webpack-runtime-6911ea1895dd8524a0fb.js","framework-025a10830d88a05b2804.js","app-239b78cb5a0135c14c1a.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["component---cache-caches-gatsby-plugin-offline-app-shell-js-9b1997f2483a747a5203.js"],"component---src-pages-404-js":["546641dfde76ed00139ea2c3eae09499c5f2164a-10c07e74be1f8980b549.js","component---src-pages-404-js-9401aec6a79f1747dcc6.js"],"component---src-pages-archive-js":["546641dfde76ed00139ea2c3eae09499c5f2164a-10c07e74be1f8980b549.js","component---src-pages-archive-js-22c63c11bbc16e2c8539.js"],"component---src-pages-index-js":["546641dfde76ed00139ea2c3eae09499c5f2164a-10c07e74be1f8980b549.js","component---src-pages-index-js-d0fa09ee35d414cef223.js"],"component---src-pages-pensieve-index-js":["546641dfde76ed00139ea2c3eae09499c5f2164a-10c07e74be1f8980b549.js","component---src-pages-pensieve-index-js-4efb97a4d3ae87ca6e95.js"],"component---src-pages-pensieve-tags-js":["546641dfde76ed00139ea2c3eae09499c5f2164a-10c07e74be1f8980b549.js","component---src-pages-pensieve-tags-js-51590b274df8e43b87a2.js"],"component---src-templates-post-js":["546641dfde76ed00139ea2c3eae09499c5f2164a-10c07e74be1f8980b549.js","component---src-templates-post-js-65b6dc2d6daf1bb9b524.js"],"component---src-templates-tag-js":["546641dfde76ed00139ea2c3eae09499c5f2164a-10c07e74be1f8980b549.js","component---src-templates-tag-js-37dde5c0d5b5805c4fbb.js"]},"childAssetsByChunkName":{}}
+{
+  "namedChunkGroups": {
+    "polyfill": {
+      "name": "polyfill",
+      "assets": [
+        { "name": "webpack-runtime-1e0f691737893c4e488c.js", "size": 4488 },
+        { "name": "commons-31de7f8e74b8747f7834.js", "size": 14808 },
+        { "name": "polyfill-eda91f43214113a099ae.js", "size": 84030 }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 103326,
+      "filteredAuxiliaryAssets": 3,
+      "auxiliaryAssetsSize": 302244
+    },
+    "app": {
+      "name": "app",
+      "assets": [
+        { "name": "webpack-runtime-1e0f691737893c4e488c.js", "size": 4488 },
+        { "name": "framework-4611a8fd10a2d3d0d53d.js", "size": 145255 },
+        { "name": "app-483820e8c61c48ad2986.js", "size": 110519 }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 260262,
+      "filteredAuxiliaryAssets": 3,
+      "auxiliaryAssetsSize": 836996
+    },
+    "component---cache-caches-gatsby-plugin-offline-app-shell-js": {
+      "name": "component---cache-caches-gatsby-plugin-offline-app-shell-js",
+      "assets": [
+        {
+          "name": "component---cache-caches-gatsby-plugin-offline-app-shell-js-9b1997f2483a747a5203.js",
+          "size": 499
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 499,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": 1657
+    },
+    "component---src-pages-404-js": {
+      "name": "component---src-pages-404-js",
+      "assets": [
+        { "name": "framework-4611a8fd10a2d3d0d53d.js", "size": 145255 },
+        { "name": "fb7d5399-a62271c4e90f0d45aa03.js", "size": 721101 },
+        { "name": "4d99978a-54a1ce709f7c24d87da5.js", "size": 75802 },
+        { "name": "commons-31de7f8e74b8747f7834.js", "size": 14808 },
+        {
+          "name": "546641dfde76ed00139ea2c3eae09499c5f2164a-d3da61c62ad103a91308.js",
+          "size": 727051
+        },
+        { "name": "component---src-pages-404-js-8f7f2b45fdc2487f64ee.js", "size": 1571 }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1685588,
+      "filteredAuxiliaryAssets": 26,
+      "auxiliaryAssetsSize": 6729578
+    },
+    "component---src-pages-archive-js": {
+      "name": "component---src-pages-archive-js",
+      "assets": [
+        { "name": "framework-4611a8fd10a2d3d0d53d.js", "size": 145255 },
+        { "name": "fb7d5399-a62271c4e90f0d45aa03.js", "size": 721101 },
+        { "name": "4d99978a-54a1ce709f7c24d87da5.js", "size": 75802 },
+        { "name": "commons-31de7f8e74b8747f7834.js", "size": 14808 },
+        {
+          "name": "546641dfde76ed00139ea2c3eae09499c5f2164a-d3da61c62ad103a91308.js",
+          "size": 727051
+        },
+        { "name": "component---src-pages-archive-js-4bc063caeb412db9e8dc.js", "size": 3803 }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1687820,
+      "filteredAuxiliaryAssets": 26,
+      "auxiliaryAssetsSize": 6735796
+    },
+    "component---src-pages-index-js": {
+      "name": "component---src-pages-index-js",
+      "assets": [
+        { "name": "framework-4611a8fd10a2d3d0d53d.js", "size": 145255 },
+        { "name": "fb7d5399-a62271c4e90f0d45aa03.js", "size": 721101 },
+        { "name": "4d99978a-54a1ce709f7c24d87da5.js", "size": 75802 },
+        { "name": "commons-31de7f8e74b8747f7834.js", "size": 14808 },
+        {
+          "name": "546641dfde76ed00139ea2c3eae09499c5f2164a-d3da61c62ad103a91308.js",
+          "size": 727051
+        },
+        { "name": "component---src-pages-index-js-834116684d93b8456c5e.js", "size": 633 }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1684650,
+      "filteredAuxiliaryAssets": 26,
+      "auxiliaryAssetsSize": 6727205
+    },
+    "component---src-pages-pensieve-index-js": {
+      "name": "component---src-pages-pensieve-index-js",
+      "assets": [
+        { "name": "framework-4611a8fd10a2d3d0d53d.js", "size": 145255 },
+        { "name": "fb7d5399-a62271c4e90f0d45aa03.js", "size": 721101 },
+        { "name": "4d99978a-54a1ce709f7c24d87da5.js", "size": 75802 },
+        { "name": "commons-31de7f8e74b8747f7834.js", "size": 14808 },
+        {
+          "name": "546641dfde76ed00139ea2c3eae09499c5f2164a-d3da61c62ad103a91308.js",
+          "size": 727051
+        },
+        { "name": "component---src-pages-pensieve-index-js-ee0d27920e0dd6782f8d.js", "size": 9198 }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1693215,
+      "filteredAuxiliaryAssets": 26,
+      "auxiliaryAssetsSize": 6762613
+    },
+    "component---src-pages-pensieve-tags-js": {
+      "name": "component---src-pages-pensieve-tags-js",
+      "assets": [
+        { "name": "framework-4611a8fd10a2d3d0d53d.js", "size": 145255 },
+        { "name": "fb7d5399-a62271c4e90f0d45aa03.js", "size": 721101 },
+        { "name": "4d99978a-54a1ce709f7c24d87da5.js", "size": 75802 },
+        { "name": "commons-31de7f8e74b8747f7834.js", "size": 14808 },
+        {
+          "name": "546641dfde76ed00139ea2c3eae09499c5f2164a-d3da61c62ad103a91308.js",
+          "size": 727051
+        },
+        { "name": "component---src-pages-pensieve-tags-js-fbd81ed4389d3fd975b1.js", "size": 6764 }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1690781,
+      "filteredAuxiliaryAssets": 26,
+      "auxiliaryAssetsSize": 6757931
+    },
+    "component---src-templates-post-js": {
+      "name": "component---src-templates-post-js",
+      "assets": [
+        { "name": "framework-4611a8fd10a2d3d0d53d.js", "size": 145255 },
+        { "name": "fb7d5399-a62271c4e90f0d45aa03.js", "size": 721101 },
+        { "name": "4d99978a-54a1ce709f7c24d87da5.js", "size": 75802 },
+        { "name": "commons-31de7f8e74b8747f7834.js", "size": 14808 },
+        {
+          "name": "546641dfde76ed00139ea2c3eae09499c5f2164a-d3da61c62ad103a91308.js",
+          "size": 727051
+        },
+        { "name": "component---src-templates-post-js-e8be577a883b27c52db0.js", "size": 7362 }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1691379,
+      "filteredAuxiliaryAssets": 26,
+      "auxiliaryAssetsSize": 6759019
+    },
+    "component---src-templates-tag-js": {
+      "name": "component---src-templates-tag-js",
+      "assets": [
+        { "name": "framework-4611a8fd10a2d3d0d53d.js", "size": 145255 },
+        { "name": "fb7d5399-a62271c4e90f0d45aa03.js", "size": 721101 },
+        { "name": "4d99978a-54a1ce709f7c24d87da5.js", "size": 75802 },
+        { "name": "commons-31de7f8e74b8747f7834.js", "size": 14808 },
+        {
+          "name": "546641dfde76ed00139ea2c3eae09499c5f2164a-d3da61c62ad103a91308.js",
+          "size": 727051
+        },
+        { "name": "component---src-templates-tag-js-bbb98cea266f0960145d.js", "size": 7321 }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1691338,
+      "filteredAuxiliaryAssets": 26,
+      "auxiliaryAssetsSize": 6760066
+    }
+  },
+  "assetsByChunkName": {
+    "polyfill": [
+      "webpack-runtime-1e0f691737893c4e488c.js",
+      "commons-31de7f8e74b8747f7834.js",
+      "polyfill-eda91f43214113a099ae.js"
+    ],
+    "app": [
+      "webpack-runtime-1e0f691737893c4e488c.js",
+      "framework-4611a8fd10a2d3d0d53d.js",
+      "app-483820e8c61c48ad2986.js"
+    ],
+    "component---cache-caches-gatsby-plugin-offline-app-shell-js": [
+      "component---cache-caches-gatsby-plugin-offline-app-shell-js-9b1997f2483a747a5203.js"
+    ],
+    "component---src-pages-404-js": [
+      "framework-4611a8fd10a2d3d0d53d.js",
+      "fb7d5399-a62271c4e90f0d45aa03.js",
+      "4d99978a-54a1ce709f7c24d87da5.js",
+      "commons-31de7f8e74b8747f7834.js",
+      "546641dfde76ed00139ea2c3eae09499c5f2164a-d3da61c62ad103a91308.js",
+      "component---src-pages-404-js-8f7f2b45fdc2487f64ee.js"
+    ],
+    "component---src-pages-archive-js": [
+      "framework-4611a8fd10a2d3d0d53d.js",
+      "fb7d5399-a62271c4e90f0d45aa03.js",
+      "4d99978a-54a1ce709f7c24d87da5.js",
+      "commons-31de7f8e74b8747f7834.js",
+      "546641dfde76ed00139ea2c3eae09499c5f2164a-d3da61c62ad103a91308.js",
+      "component---src-pages-archive-js-4bc063caeb412db9e8dc.js"
+    ],
+    "component---src-pages-index-js": [
+      "framework-4611a8fd10a2d3d0d53d.js",
+      "fb7d5399-a62271c4e90f0d45aa03.js",
+      "4d99978a-54a1ce709f7c24d87da5.js",
+      "commons-31de7f8e74b8747f7834.js",
+      "546641dfde76ed00139ea2c3eae09499c5f2164a-d3da61c62ad103a91308.js",
+      "component---src-pages-index-js-834116684d93b8456c5e.js"
+    ],
+    "component---src-pages-pensieve-index-js": [
+      "framework-4611a8fd10a2d3d0d53d.js",
+      "fb7d5399-a62271c4e90f0d45aa03.js",
+      "4d99978a-54a1ce709f7c24d87da5.js",
+      "commons-31de7f8e74b8747f7834.js",
+      "546641dfde76ed00139ea2c3eae09499c5f2164a-d3da61c62ad103a91308.js",
+      "component---src-pages-pensieve-index-js-ee0d27920e0dd6782f8d.js"
+    ],
+    "component---src-pages-pensieve-tags-js": [
+      "framework-4611a8fd10a2d3d0d53d.js",
+      "fb7d5399-a62271c4e90f0d45aa03.js",
+      "4d99978a-54a1ce709f7c24d87da5.js",
+      "commons-31de7f8e74b8747f7834.js",
+      "546641dfde76ed00139ea2c3eae09499c5f2164a-d3da61c62ad103a91308.js",
+      "component---src-pages-pensieve-tags-js-fbd81ed4389d3fd975b1.js"
+    ],
+    "component---src-templates-post-js": [
+      "framework-4611a8fd10a2d3d0d53d.js",
+      "fb7d5399-a62271c4e90f0d45aa03.js",
+      "4d99978a-54a1ce709f7c24d87da5.js",
+      "commons-31de7f8e74b8747f7834.js",
+      "546641dfde76ed00139ea2c3eae09499c5f2164a-d3da61c62ad103a91308.js",
+      "component---src-templates-post-js-e8be577a883b27c52db0.js"
+    ],
+    "component---src-templates-tag-js": [
+      "framework-4611a8fd10a2d3d0d53d.js",
+      "fb7d5399-a62271c4e90f0d45aa03.js",
+      "4d99978a-54a1ce709f7c24d87da5.js",
+      "commons-31de7f8e74b8747f7834.js",
+      "546641dfde76ed00139ea2c3eae09499c5f2164a-d3da61c62ad103a91308.js",
+      "component---src-templates-tag-js-bbb98cea266f0960145d.js"
+    ]
+  },
+  "childAssetsByChunkName": {}
+}
