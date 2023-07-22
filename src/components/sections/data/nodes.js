@@ -95,7 +95,7 @@ export const courseNodes = [
     semester: 'Spring ‘23',
     icon: 'node-icons/language.svg',
     data: {
-      category: 'Global Language',
+      category: 'Global Languages',
     },
   },
 
@@ -168,7 +168,7 @@ export const courseNodes = [
     semester: 'Fall ‘22',
     icon: 'node-icons/language.svg',
     data: {
-      category: 'Global Language',
+      category: 'Global Languages',
     },
   },
 
@@ -217,7 +217,7 @@ export const courseNodes = [
     semester: 'Spring ‘22',
     icon: 'node-icons/language.svg',
     data: {
-      category: 'Global Language',
+      category: 'Global Languages',
     },
   },
 

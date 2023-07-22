@@ -13,7 +13,8 @@ const StyledHeroSection = styled.section`
   min-height: 30vh;
   height: 80vh;
   padding: 0;
-  margin: 0;
+  margin-top: 16rem;
+  margin-bottom: 10rem;
 
   @media (max-height: 700px) and (min-width: 700px), (max-width: 360px) {
     height: auto;
@@ -34,6 +35,10 @@ const StyledCanvas = styled.div`
     border-style: solid;
     border-width: 0.5px;
   }
+`;
+
+const StyledText = styled.div`
+  margin-bottom: 2rem;
 `;
 
 const createEmptyNode = () => ({ id: '', label: '', name: '', description: '', semester: '' });
@@ -71,6 +76,15 @@ const Courses = () => {
   return (
     <StyledHeroSection id="courses">
       <h2 className="numbered-heading">What I’ve Learned</h2>
+      <StyledText>
+        <div>
+          <p>
+            By taking courses at MIT, I’ve dived deeply into multiple fields of computer science. My
+            most favorite course has been Distributed Computer Systems Engineering (6.824). Here's a
+            selection of my most relevant courses:
+          </p>
+        </div>
+      </StyledText>
       <StyledCanvas style={{ cursor: 'pointer' }}>
         {/* <button
           style={{
@@ -92,7 +106,7 @@ const Courses = () => {
           theme={courseTheme}
           labelFontUrl="node-fonts/SFMono-Regular.ttf"
           clusterAttribute="category"
-          draggable
+          // draggable
           layoutType={layout}
           ref={graphRef}
           selections={selections}

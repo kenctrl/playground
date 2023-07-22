@@ -67,7 +67,7 @@ const Hero = () => {
       <p>
         I'm a third-year student at MIT studying Computer Science and Engineering. I'm interested in
         full-stack web development, machine learning, and data privacy. In my free time, I enjoy
-        cooking, vibing to music, and playing platformer games.
+        cooking, listening to music, and playing platformer games.
       </p>
     </>
   );

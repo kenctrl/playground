@@ -8,7 +8,7 @@ const Popup = ({ node, position }) => (
       top: position.y - 10,
       left: position.x + 20,
       height: 'fit-content',
-      maxWidth: '500px',
+      width: 'fit-content',
       background: '#112240',
       border: '1px solid #112240',
       borderRadius: '4px',
@@ -16,13 +16,13 @@ const Popup = ({ node, position }) => (
       boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
       zIndex: 9999, // Ensure the popup is on top of other elements
     }}>
-    <b>{node.name}</b>
+    <b style={{ color: '#e6f1ff' }}>{node.name}</b>
     <br />
-    <br />
+    {/* <br />
     {node.description}
     <br />
-    <br />
-    Took {node.semester}
+    <br /> */}
+    <p style={{ color: '#e6f1ff' }}>{node.semester}</p>
   </div>
 );
 
