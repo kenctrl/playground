@@ -5,7 +5,7 @@ export const courseTheme = {
   },
   node: {
     fill: '#e6f1ff',
-    activeFill: '#64ffda',
+    activeFill: '#e6f1ff',
     opacity: 1,
     selectedOpacity: 1,
     inactiveOpacity: 0.2,
@@ -21,12 +21,12 @@ export const courseTheme = {
   },
   ring: {
     fill: '#e6f1ff',
-    activeFill: '#64ffda',
+    activeFill: '#8892b0',
   },
   edge: {
     fill: '#a8b2d1',
-    activeFill: '#a8b2d1',
-    opacity: 1,
+    activeFill: '#64ffda',
+    opacity: 0.5,
     selectedOpacity: 1,
     inactiveOpacity: 0.1,
     label: {
@@ -37,7 +37,7 @@ export const courseTheme = {
   },
   arrow: {
     fill: '#a8b2d1',
-    activeFill: '#a8b2d1',
+    activeFill: '#64ffda',
   },
   cluster: {
     stroke: '#0a192f',

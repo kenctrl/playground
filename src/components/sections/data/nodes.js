@@ -3,7 +3,7 @@ export const courseNodes = [
   {
     id: '6.172',
     new_id: '6.1060',
-    label: '6.172',
+    label: 'Software Performance Engineering',
     name: 'Software Performance Engineering',
     description: '',
     semester: 'Fall ‘23',
@@ -15,7 +15,7 @@ export const courseNodes = [
   {
     id: '6.039',
     new_id: '6.1810',
-    label: '6.039',
+    label: 'Operating\nSystems',
     name: 'Operating System Engineering',
     description: '',
     semester: 'Fall ‘23',
@@ -27,7 +27,7 @@ export const courseNodes = [
   {
     id: '6.S953',
     new_id: '6.S953',
-    label: '6.S953',
+    label: 'Machine Learning for Drug Discovery',
     name: 'Machine Learning for Drug Discovery',
     description: '',
     semester: 'Fall ‘23',
@@ -41,7 +41,7 @@ export const courseNodes = [
   {
     id: '6.824',
     new_id: '6.5840',
-    label: '6.824',
+    label: 'Distributed\nSystems',
     name: 'Distributed Computer Systems Engineering',
     description: '',
     semester: 'Spring ‘23',
@@ -53,7 +53,7 @@ export const courseNodes = [
   {
     id: '6.046',
     new_id: '6.1220',
-    label: '6.046',
+    label: 'Design and Analysis\nof Algorithms',
     name: 'Design and Analysis of Algorithms',
     description: '',
     semester: 'Spring ‘23',
@@ -65,7 +65,7 @@ export const courseNodes = [
   {
     id: '6.033',
     new_id: '6.1800',
-    label: '6.033',
+    label: 'Computer\nSystems',
     name: 'Computer Systems Engineering',
     description: '',
     semester: 'Spring ‘23',
@@ -77,7 +77,7 @@ export const courseNodes = [
   {
     id: '6.819',
     new_id: '6.8301',
-    label: '6.819',
+    label: 'Computer Vision',
     name: 'Advances in Computer Vision',
     description: '',
     semester: 'Spring ‘23',
@@ -89,7 +89,7 @@ export const courseNodes = [
   {
     id: '21G.906',
     new_id: '21G.906',
-    label: '21G.906',
+    label: 'Korean 6',
     name: 'Korean 6',
     description: '',
     semester: 'Spring ‘23',
@@ -102,7 +102,7 @@ export const courseNodes = [
   {
     id: '6.042',
     new_id: '6.1200',
-    label: '6.042',
+    label: 'Discrete\nMathematics',
     name: 'Mathematics for Computer Science',
     description: '',
     semester: 'Fall ‘22',
@@ -114,7 +114,7 @@ export const courseNodes = [
   {
     id: '6.004',
     new_id: '6.1910',
-    label: '6.004',
+    label: 'Computation\nStructures',
     name: 'Computation Structures',
     description: '',
     semester: 'Fall ‘22',
@@ -126,7 +126,7 @@ export const courseNodes = [
   {
     id: '6.811',
     new_id: '6.4530',
-    label: '6.811',
+    label: 'Assistive\nTechnology',
     name: 'Principles and Practice of Assistive Technology',
     description: '',
     semester: 'Fall ‘22',
@@ -138,7 +138,7 @@ export const courseNodes = [
   {
     id: '6.864',
     new_id: '6.8610',
-    label: '6.864',
+    label: 'Natural Language Processing',
     name: 'Quantitative Methods for Natural Language Processing',
     description: '',
     semester: 'Fall ‘22',
@@ -150,7 +150,7 @@ export const courseNodes = [
   {
     id: '18.600',
     new_id: '18.600',
-    label: '18.600',
+    label: 'Probability and\nRandom Variables',
     name: 'Probability and Random Variables',
     description: '',
     semester: 'Fall ‘22',
@@ -162,7 +162,7 @@ export const courseNodes = [
   {
     id: '21G.905',
     new_id: '21G.905',
-    label: '21G.905',
+    label: 'Korean 5',
     name: 'Korean 5',
     description: '',
     semester: 'Fall ‘22',
@@ -175,7 +175,7 @@ export const courseNodes = [
   {
     id: '6.031',
     new_id: '6.1020',
-    label: '6.031',
+    label: 'Software\nConstruction',
     name: 'Elements of Software Construction',
     description: '',
     semester: 'Spring ‘22',
@@ -187,7 +187,7 @@ export const courseNodes = [
   {
     id: '6.036',
     new_id: '6.3900',
-    label: '6.036',
+    label: 'Intro to Machine Learning',
     name: 'Introduction to Machine Learning',
     description: '',
     semester: 'Spring ‘22',
@@ -199,7 +199,7 @@ export const courseNodes = [
   {
     id: '8.02',
     new_id: '8.02',
-    label: '8.02',
+    label: 'Electricity and Magnetism',
     name: 'Electricity and Magnetism',
     description: '',
     semester: 'Spring ‘22',
@@ -211,7 +211,7 @@ export const courseNodes = [
   {
     id: '21G.904',
     new_id: '21G.904',
-    label: '21G.904',
+    label: 'Korean 4',
     name: 'Korean 4',
     description: '',
     semester: 'Spring ‘22',
@@ -224,7 +224,7 @@ export const courseNodes = [
   {
     id: '6.009',
     new_id: '6.1010',
-    label: '6.009',
+    label: 'Python\nProgramming',
     name: 'Fundamentals of Programming',
     description: '',
     semester: 'Fall ‘21',
@@ -236,7 +236,7 @@ export const courseNodes = [
   {
     id: '6.006',
     new_id: '6.1210',
-    label: '6.006',
+    label: 'Intro to\nAlgorithms',
     name: 'Introduction to Algorithms',
     description: '',
     semester: 'Fall ‘21',
@@ -268,7 +268,7 @@ export const courseNodes = [
   {
     id: '18.06',
     new_id: '18.06',
-    label: '18.06',
+    label: 'Linear Algebra',
     name: 'Linear Algebra',
     description: '',
     semester: 'Prior Credit',

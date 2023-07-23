@@ -1,4 +1,4 @@
-/*! For license information please see 546641dfde76ed00139ea2c3eae09499c5f2164a-5d6e29459afe4a3fb440.js.LICENSE.txt */
+/*! For license information please see 546641dfde76ed00139ea2c3eae09499c5f2164a-e82db13080dcdf14084d.js.LICENSE.txt */
 (self.webpackChunkv4 = self.webpackChunkv4 || []).push([
   [98],
   {
@@ -38202,7 +38202,7 @@
           {
             id: '6.172',
             new_id: '6.1060',
-            label: '6.172',
+            label: 'Software Performance Engineering',
             name: 'Software Performance Engineering',
             description: '',
             semester: 'Fall ‘23',
@@ -38212,7 +38212,7 @@
           {
             id: '6.039',
             new_id: '6.1810',
-            label: '6.039',
+            label: 'Operating\nSystems',
             name: 'Operating System Engineering',
             description: '',
             semester: 'Fall ‘23',
@@ -38222,7 +38222,7 @@
           {
             id: '6.S953',
             new_id: '6.S953',
-            label: '6.S953',
+            label: 'Machine Learning for Drug Discovery',
             name: 'Machine Learning for Drug Discovery',
             description: '',
             semester: 'Fall ‘23',
@@ -38232,7 +38232,7 @@
           {
             id: '6.824',
             new_id: '6.5840',
-            label: '6.824',
+            label: 'Distributed\nSystems',
             name: 'Distributed Computer Systems Engineering',
             description: '',
             semester: 'Spring ‘23',
@@ -38242,7 +38242,7 @@
           {
             id: '6.046',
             new_id: '6.1220',
-            label: '6.046',
+            label: 'Design and Analysis\nof Algorithms',
             name: 'Design and Analysis of Algorithms',
             description: '',
             semester: 'Spring ‘23',
@@ -38252,7 +38252,7 @@
           {
             id: '6.033',
             new_id: '6.1800',
-            label: '6.033',
+            label: 'Computer\nSystems',
             name: 'Computer Systems Engineering',
             description: '',
             semester: 'Spring ‘23',
@@ -38262,7 +38262,7 @@
           {
             id: '6.819',
             new_id: '6.8301',
-            label: '6.819',
+            label: 'Computer Vision',
             name: 'Advances in Computer Vision',
             description: '',
             semester: 'Spring ‘23',
@@ -38272,7 +38272,7 @@
           {
             id: '21G.906',
             new_id: '21G.906',
-            label: '21G.906',
+            label: 'Korean 6',
             name: 'Korean 6',
             description: '',
             semester: 'Spring ‘23',
@@ -38282,7 +38282,7 @@
           {
             id: '6.042',
             new_id: '6.1200',
-            label: '6.042',
+            label: 'Discrete\nMathematics',
             name: 'Mathematics for Computer Science',
             description: '',
             semester: 'Fall ‘22',
@@ -38292,7 +38292,7 @@
           {
             id: '6.004',
             new_id: '6.1910',
-            label: '6.004',
+            label: 'Computation\nStructures',
             name: 'Computation Structures',
             description: '',
             semester: 'Fall ‘22',
@@ -38302,7 +38302,7 @@
           {
             id: '6.811',
             new_id: '6.4530',
-            label: '6.811',
+            label: 'Assistive\nTechnology',
             name: 'Principles and Practice of Assistive Technology',
             description: '',
             semester: 'Fall ‘22',
@@ -38312,7 +38312,7 @@
           {
             id: '6.864',
             new_id: '6.8610',
-            label: '6.864',
+            label: 'Natural Language Processing',
             name: 'Quantitative Methods for Natural Language Processing',
             description: '',
             semester: 'Fall ‘22',
@@ -38322,7 +38322,7 @@
           {
             id: '18.600',
             new_id: '18.600',
-            label: '18.600',
+            label: 'Probability and\nRandom Variables',
             name: 'Probability and Random Variables',
             description: '',
             semester: 'Fall ‘22',
@@ -38332,7 +38332,7 @@
           {
             id: '21G.905',
             new_id: '21G.905',
-            label: '21G.905',
+            label: 'Korean 5',
             name: 'Korean 5',
             description: '',
             semester: 'Fall ‘22',
@@ -38342,7 +38342,7 @@
           {
             id: '6.031',
             new_id: '6.1020',
-            label: '6.031',
+            label: 'Software\nConstruction',
             name: 'Elements of Software Construction',
             description: '',
             semester: 'Spring ‘22',
@@ -38352,7 +38352,7 @@
           {
             id: '6.036',
             new_id: '6.3900',
-            label: '6.036',
+            label: 'Intro to Machine Learning',
             name: 'Introduction to Machine Learning',
             description: '',
             semester: 'Spring ‘22',
@@ -38362,7 +38362,7 @@
           {
             id: '8.02',
             new_id: '8.02',
-            label: '8.02',
+            label: 'Electricity and Magnetism',
             name: 'Electricity and Magnetism',
             description: '',
             semester: 'Spring ‘22',
@@ -38372,7 +38372,7 @@
           {
             id: '21G.904',
             new_id: '21G.904',
-            label: '21G.904',
+            label: 'Korean 4',
             name: 'Korean 4',
             description: '',
             semester: 'Spring ‘22',
@@ -38382,7 +38382,7 @@
           {
             id: '6.009',
             new_id: '6.1010',
-            label: '6.009',
+            label: 'Python\nProgramming',
             name: 'Fundamentals of Programming',
             description: '',
             semester: 'Fall ‘21',
@@ -38392,7 +38392,7 @@
           {
             id: '6.006',
             new_id: '6.1210',
-            label: '6.006',
+            label: 'Intro to\nAlgorithms',
             name: 'Introduction to Algorithms',
             description: '',
             semester: 'Fall ‘21',
@@ -38402,7 +38402,7 @@
           {
             id: '18.06',
             new_id: '18.06',
-            label: '18.06',
+            label: 'Linear Algebra',
             name: 'Linear Algebra',
             description: '',
             semester: 'Prior Credit',
@@ -38427,6 +38427,7 @@
           { source: '18.06', target: '6.864', id: '18.06-6.864', label: '18.06-6.864' },
           { source: '18.06', target: '6.819', id: '18.06-6.819', label: '18.06-6.819' },
           { source: '6.036', target: '6.864', id: '6.036-6.864', label: '6.036-6.864' },
+          { source: '6.036', target: '6.819', id: '6.036-6.819', label: '6.036-6.819' },
           { source: '6.042', target: '6.819', id: '6.042-6.819', label: '6.042-6.819' },
           { source: '21G.904', target: '21G.905', id: '21G.904-21G.905', label: '21G.904-21G.905' },
           { source: '21G.905', target: '21G.906', id: '21G.905-21G.906', label: '21G.905-21G.906' },
@@ -38435,23 +38436,23 @@
           canvas: { background: '#0a192f', fog: '#e6f1ff' },
           node: {
             fill: '#e6f1ff',
-            activeFill: '#64ffda',
+            activeFill: '#e6f1ff',
             opacity: 1,
             selectedOpacity: 1,
             inactiveOpacity: 0.2,
             label: { color: '#e6f1ff', activeColor: '#64ffda' },
           },
           lasso: { border: '0px', background: 'rgba(75, 160, 255, 0.1)' },
-          ring: { fill: '#e6f1ff', activeFill: '#64ffda' },
+          ring: { fill: '#e6f1ff', activeFill: '#8892b0' },
           edge: {
             fill: '#a8b2d1',
-            activeFill: '#a8b2d1',
-            opacity: 1,
+            activeFill: '#64ffda',
+            opacity: 0.5,
             selectedOpacity: 1,
             inactiveOpacity: 0.1,
             label: { color: '#64ffda', activeColor: '#64ffda' },
           },
-          arrow: { fill: '#a8b2d1', activeFill: '#a8b2d1' },
+          arrow: { fill: '#a8b2d1', activeFill: '#64ffda' },
           cluster: { stroke: '#0a192f', label: { stroke: null, color: '#e6f1ff' } },
         },
         wm = l.default.section.withConfig({
@@ -40799,4 +40800,4 @@
     },
   },
 ]);
-//# sourceMappingURL=546641dfde76ed00139ea2c3eae09499c5f2164a-5d6e29459afe4a3fb440.js.map
+//# sourceMappingURL=546641dfde76ed00139ea2c3eae09499c5f2164a-e82db13080dcdf14084d.js.map
